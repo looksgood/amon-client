@@ -1,7 +1,7 @@
 {
     "name": "amon-client"
   , "description": "nodejs amon client, suport for http and zermq transport"
-  , "version": "0.1.0"
+  , "version": "0.1.1"
   , "main" : "./lib/amon.js"
   , "homepage": "http://socket.io"
   , "keywords": ["amon", "zeromq", "logSystem"]
