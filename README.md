@@ -15,8 +15,20 @@ First, require `amon-client`:
 
 ```js
 var Amon = require('amon-client');
-var amon = new Amon();
-
-amon.log('this is a amon log', 'debug');
 ```
 
+###use zeromq 
+
+```js
+var amon = new Amon({host:'127.0.0.1', port:5464, protocal: 'zeromq'});
+
+amon.log('this is log transport by zeromq', 'debug');
+```
+
+###use http
+
+```js
+var amon = new Amon({host:'127.0.0.1', port:2464, protocal: 'http'});
+
+amon.log('this is log transport by http', 'debug');
+```
