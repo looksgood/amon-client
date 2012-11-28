@@ -1,7 +1,7 @@
 {
     "name": "amon-client"
   , "description": "nodejs amon client, suport for http and zermq transport"
-  , "version": "0.1.2"
+  , "version": "0.1.3"
   , "main" : "./lib/amon.js"
   , "homepage": "http://socket.io"
   , "keywords": ["amon", "zeromq", "logSystem"]
@@ -14,10 +14,10 @@
       , "url": "https://github.com/looksgood/amon-client.git"
     }
   , "dependencies": {
-        "zmq": "2.1.0"
+        "zmq": ">= 2.2.0"
     }
   , "devDependencies": {
-        "zmq": "2.1.0"
+        "zmq": "2.2.0"
     }
   , "engines": { "node": ">= 0.8.0" }
 }
